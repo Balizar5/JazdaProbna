@@ -3,29 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Krótka lista przygotowań do jazdy próbnej.">
-  <title>Jazda Próbna</title>
+  <meta name="description" content="Przewodnik dla licealistów po studiach, maturze i pierwszych krokach zawodowych.">
+  <title>Jazda Próbna — studia, matura i pierwsza praca</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="./">Jazda Próbna</a>
-    <button id="theme-toggle" type="button" aria-pressed="false" hidden>Tryb ciemny</button>
+    <div class="container header-inner">
+      <a class="brand" href="./"><img src="logo.svg" alt="" width="48" height="46">Jazda Próbna</a>
+      <button id="theme-toggle" type="button" aria-pressed="false" hidden>Tryb ciemny</button>
+    </div>
   </header>
-  <main>
+
+  <main class="container">
     <section class="hero" aria-labelledby="title">
-      <h1 id="title">Przygotuj się do jazdy próbnej</h1>
-      <p>Sprawdź, jak samochód zachowuje się na drodze i czy dobrze się w nim czujesz.</p>
-      <a class="action" href="#lista">Zobacz listę kontrolną</a>
+      <h1 id="title">Co po liceum?</h1>
+      <p>Porównaj kierunki studiów, przygotuj się do matury i sprawdź, jak wygląda pierwszy krok w stronę pracy.</p>
+      <a class="action" href="#tematy">Przejdź do tematów <span aria-hidden="true">↓</span></a>
     </section>
-    <section class="checklist" id="lista" aria-labelledby="checklist-title">
-      <h2 id="checklist-title">Co sprawdzić podczas jazdy?</h2>
-      <ul>
-        <li><label><input type="checkbox"> Ustaw fotel i lusterka. Sprawdź widoczność.</label></li>
-        <li><label><input type="checkbox"> Zwróć uwagę na ruszanie, hamowanie i pracę kierownicy.</label></li>
-        <li><label><input type="checkbox"> Spróbuj zaparkować i oceń, czy łatwo wyczuć gabaryty auta.</label></li>
-      </ul>
+
+    <section class="topics" id="tematy" aria-labelledby="topics-title">
+      <h2 id="topics-title">Wybierz temat</h2>
+      <ol class="topic-grid">
+        <li class="topic">
+          <span class="icon" aria-hidden="true">🧭</span>
+          <h3>Odkryj swoją przyszłość</h3>
+          <p>Quizy predyspozycji i zainteresowań, test „Jaki zawód do mnie pasuje?” oraz propozycje kierunków rozwoju. Potraktuj wyniki jako inspirację do odkrywania różnych możliwości.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">🎓</span>
+          <h3>Studia i uczelnie</h3>
+          <p>Wyszukiwarka kierunków, porównywarka uczelni, wymagania rekrutacyjne, progi punktowe i dni otwarte. Dowiedz się też, jak wyglądają studia za granicą.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">📊</span>
+          <h3>Rankingi i zarobki</h3>
+          <p>Rankingi uczelni i kierunków, perspektywy zatrudnienia, wynagrodzenia absolwentów, popularne zawody i trendy na rynku pracy.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">💻</span>
+          <h3>Kursy i szkolenia</h3>
+          <p>Darmowe kursy online z programowania, AI, języków obcych, przedsiębiorczości, grafiki i umiejętności miękkich. Sprawdź też, gdzie można zdobyć certyfikat.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">💼</span>
+          <h3>Staże, praktyki i pierwsza praca</h3>
+          <p>Oferty dla młodzieży, wolontariat i praca wakacyjna. Przygotuj CV, portfolio i przećwicz rozmowę rekrutacyjną.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">🤖</span>
+          <h3>Zawody przyszłości</h3>
+          <p>Jak wygląda codzienna praca w AI, cyberbezpieczeństwie, medycynie, energetyce, robotyce i branżach kreatywnych?</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">📅</span>
+          <h3>Kalendarz możliwości</h3>
+          <p>Terminy rekrutacji, dni otwarte uczelni, olimpiady, konkursy, hackathony, targi edukacyjne i stypendia.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">📚</span>
+          <h3>Matura i nauka</h3>
+          <p>Planer nauki, materiały do matury, arkusze egzaminacyjne, kalkulator punktów rekrutacyjnych i skuteczne techniki uczenia się.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">💬</span>
+          <h3>Historie młodych ludzi</h3>
+          <p>Wywiady ze studentami, absolwentami i pracownikami różnych branż. „Co chciałbym wiedzieć, mając 17 lat?”.</p>
+        </li>
+        <li class="topic">
+          <span class="icon" aria-hidden="true">💡</span>
+          <h3>Strefa inspiracji</h3>
+          <p>Pomysły na własne projekty, działalność społeczną i startupy. Znajdź sposób na rozwijanie pasji i zdobywanie pierwszych osiągnięć.</p>
+        </li>
+      </ol>
     </section>
   </main>
 </body>
