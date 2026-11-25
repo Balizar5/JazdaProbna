@@ -1,36 +1,41 @@
 <!doctype html>
-<html lang="pl">
+<html lang="pl" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Przewodnik dla licealistów po studiach, maturze i pierwszych krokach zawodowych.">
   <title>Jazda Próbna — studia, matura i pierwsza praca</title>
   <link rel="icon" href="logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="script.js?v=2" defer></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="./"><img src="logo.svg" alt="" width="48" height="46">Jazda Próbna</a>
-      <button id="theme-toggle" type="button" aria-pressed="false" hidden>Tryb ciemny</button>
+      <div class="brand">
+        <img src="logo.svg" alt="" width="240" height="227">
+        <div>
+          <a class="brand-name" href="./">Jazda Próbna</a>
+          <h1 id="title">Kierunek → Twoja przyszłość</h1>
+        </div>
+      </div>
+      <button id="theme-toggle" type="button" hidden>Tryb ciemny</button>
     </div>
   </header>
 
   <main class="container">
     <section class="hero" aria-labelledby="title">
-      <h1 id="title">Co po liceum?</h1>
-      <p>Porównaj kierunki studiów, przygotuj się do matury i sprawdź, jak wygląda pierwszy krok w stronę pracy.</p>
+      <p>Sprawdź studia, zawody, kursy i możliwości rozwoju. Zobacz, która droga najlepiej pasuje do Ciebie.</p>
       <a class="action" href="#tematy">Przejdź do tematów <span aria-hidden="true">↓</span></a>
     </section>
 
     <section class="topics" id="tematy" aria-labelledby="topics-title">
       <h2 id="topics-title">Wybierz temat</h2>
       <ol class="topic-grid">
-        <li class="topic">
+        <li class="topic topic-linked">
           <span class="icon" aria-hidden="true">🧭</span>
-          <h3>Odkryj swoją przyszłość</h3>
-          <p>Quizy predyspozycji i zainteresowań, test „Jaki zawód do mnie pasuje?” oraz propozycje kierunków rozwoju. Potraktuj wyniki jako inspirację do odkrywania różnych możliwości.</p>
+          <h3><a href="odkryj-swoja-przyszlosc.html">Odkryj swoją przyszłość</a></h3>
+          <p>Quizy predyspozycji i zainteresowań, test „Jaki zawód do mnie pasuje?”. Dzięki <strong>Aplikacji Edukacyjnej</strong> wybierz interesujący Cię kierunek i przez miesiąc wcielaj się w rolę specjalisty z danej dziedziny.</p>
         </li>
         <li class="topic">
           <span class="icon" aria-hidden="true">🎓</span>
