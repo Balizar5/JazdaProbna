@@ -288,3 +288,50 @@ h2 {
 @media (max-width: 48rem) {
   .detail-layout { grid-template-columns: 1fr; }
 }
+
+.resource-section {
+  padding-block: clamp(2rem, 5vw, 4rem);
+}
+
+.resource-section > p,
+.resource-grid p,
+.resource-grid small {
+  color: var(--muted);
+}
+
+.resource-group {
+  margin-top: 1rem;
+  border: 1px solid #ccd7ef;
+  border-radius: 0.75rem;
+  background: var(--surface);
+}
+
+.resource-group summary {
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0 1rem 1rem;
+  list-style: none;
+}
+
+.resource-grid li {
+  padding: 0.85rem;
+  border: 1px solid #ccd7ef;
+  border-radius: 0.55rem;
+  background: var(--background);
+}
+
+.resource-grid a {
+  color: #1746a2;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.resource-grid p { margin: 0.35rem 0; }
