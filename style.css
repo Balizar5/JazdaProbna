@@ -168,15 +168,11 @@ h2 {
 
 .topic h3 {
   grid-area: 1 / 2;
-  font-size: clamp(1.45rem, 2.2vw, 1.75rem);
+  font-size: clamp(2.9rem, 4.4vw, 3.5rem);
   text-align: center;
   overflow-wrap: anywhere;
 }
 
-.fit-topic-titles .topic h3 {
-  font-size: var(--topic-title-size, clamp(1.45rem, 2.2vw, 1.75rem));
-  white-space: nowrap;
-}
 
 @media (max-width: 24rem) {
   .topic { padding-inline: 0.75rem; }
