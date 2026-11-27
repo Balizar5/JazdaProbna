@@ -168,7 +168,7 @@ h2 {
 
 .topic h3 {
   grid-area: 1 / 2;
-  font-size: clamp(2.9rem, 4.4vw, 3.5rem);
+  font-size: 1.125em;
   text-align: center;
   overflow-wrap: anywhere;
 }
