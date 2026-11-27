@@ -7,7 +7,7 @@
   <link rel="icon" href="logo-przezroczyste.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css?v=6">
   <link rel="stylesheet" href="rankingi.css">
-  <script src="rankingi.js" defer></script>
+  <script src="rankingi.js?v=48bfdc7" defer></script>
 </head>
 <body>
   <header class="detail-header">
@@ -22,7 +22,7 @@
         <h1 id="ranking-title">Rankingi uczelni i kierunków studiów</h1>
         <div class="ranking-actions">
           <a class="action" href="#rankingi">Odkryj rankingi</a>
-          <a class="action" href="#moj-ranking">Stwórz mój ranking</a>
+
         </div>
       </div>
     </section>
@@ -31,43 +31,6 @@
       <section id="rankingi">
         <h2>Uczelnie i kierunki w Polsce</h2>
         <p>Sprawdź pozycje oraz metodologię w <a href="https://ranking.perspektywy.pl/">rankingu Perspektyw</a>. Ofertę uczelni znajdziesz w <a href="https://studia.gov.pl/">wyszukiwarce Studia.gov.pl</a>.</p>
-        <form id="demo-filters" class="ranking-panel">
-          <h3>Katalog demonstracyjny</h3>
-          <p>Uczelnie, oferty i oceny w katalogu są fikcyjne. Wypróbuj wyszukiwanie, porównanie i ulubione.</p>
-          <div class="ranking-controls">
-            <label>Nazwa uczelni <input id="school-search" type="search" list="school-names"></label>
-            <datalist id="school-names"></datalist>
-            <label>Miasto <select id="school-city"><option value="">Wszystkie</option></select></label>
-            <label>Typ <select id="school-type"><option value="">Wszystkie</option></select></label>
-            <label>Kierunek <select id="school-program"><option value="">Wszystkie</option></select></label>
-            <label>Sortowanie <select id="school-sort"><option value="name">Nazwa</option><option value="city">Miasto</option></select></label>
-            <label><input id="school-favorites" type="checkbox"> Tylko ulubione</label>
-          </div>
-        </form>
-        <div id="school-results" class="ranking-grid"></div>
-        <p id="catalog-status" role="status"></p>
-      </section>
-
-      <section id="porownanie">
-        <h2>Porównaj uczelnie</h2>
-        <p>Dodaj do porównania maksymalnie cztery uczelnie z katalogu.</p>
-        <div id="comparison" class="ranking-grid"></div>
-        <a href="odkryj-swoja-przyszlosc.html">Przetestuj kierunek w Jazdzie Próbnej</a>
-      </section>
-
-      <section id="moj-ranking">
-        <h2>Mój ranking</h2>
-        <h3>Niech ranking dopasuje się do Ciebie, a nie Ty do rankingu!</h3>
-        <p>Ustaw ważność kryteriów od 1 do 5. Wynik to średnia ważona ocen demonstracyjnych od 1 do 5. Oceny pokazano w szczegółach uczelni.</p>
-        <form id="weights-form" class="ranking-panel">
-          <div id="criteria" class="ranking-controls"></div>
-          <p id="top-criteria"></p>
-          <div class="ranking-actions">
-            <button class="action" type="submit">Stwórz mój ranking</button>
-            <button class="action" type="reset">Przywróć wagi domyślne</button>
-          </div>
-        </form>
-        <ol id="personal-results" class="ranking-results" aria-live="polite"></ol>
       </section>
 
       <section id="zarobki">
